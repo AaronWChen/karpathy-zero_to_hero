@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "data-science-template"
+version = "0.1.0"
+description = "Base environments to be used for data science projects"
+authors = ["Aaron W Chen <awc33@cornell.edu>"]
+readme = "README.md"
+packages = [{include = "data_science_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.26.0"
+pandas = "^2.1.0"
+ipython = "^8.15.0"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.6"
+statsmodels = "^0.14.0"
+matplotlib = "^3.8.0"
+sklearn = "^0.0.post9"
+scipy = "^1.11.2"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+nbdev = "^2.3.12"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
