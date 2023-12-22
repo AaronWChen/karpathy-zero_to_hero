@@ -1,6 +1,6 @@
-# Data Science Project GitHub Repo Template
+# Notes/Workthrough for Andrej Karpathy's Zero to Hero Neural Networks Course
 
-This repo provides a template structure for Python-based data science projects. It includes commonly used directories, including `notebooks/`, `data/`, and `src/` directories, and files for efficient setup of the src code and conda environment. Feel free to customize the directory for your usage!
+This repo is a place for notes and notebooks while working through [Andrej Karpathy's Zero to Hero Neural Networks course](https://karpathy.ai/zero-to-hero.html)
 
 ## Initial Setup
 
