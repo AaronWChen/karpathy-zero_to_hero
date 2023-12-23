@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "karpathy-zero-to-hero"
-version = "0.1.0"
+version = "0.1.1"
 description = "Poetry environment for working through Andrej Karpathy's Zero to Hero Neural Networks course"
 authors = ["Aaron W Chen <awc33@cornell.edu>"]
 readme = "README.md"
@@ -20,6 +20,7 @@ statsmodels = "^0.14.1"
 torch = "^2.1.2"
 torchvision = "^0.16.2"
 torchaudio = "^2.1.2"
+graphviz = "^0.20.1"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.0"
